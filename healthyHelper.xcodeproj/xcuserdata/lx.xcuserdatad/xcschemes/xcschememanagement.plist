@@ -7,7 +7,25 @@
 		<key>healthyHelper.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E910F1C91FDF6C9800EED8F6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E910F1E11FDF6C9900EED8F6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E910F1EC1FDF6C9900EED8F6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

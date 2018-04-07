@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+            <title></title>
+            
+            <style>
+                /*选择所有的图片元素，设置所有图片元素的样式*/
+                img
+                {
+                    display: block;/*删除该行即可正常删除图片，此元素显示为块级元素，此元素前后带有换行符*/
+                    width: 100%;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+            /* 设置可编辑元素的样式，在可编辑元素为空的时候并且在该可编辑元素块的前面显示占位文字*/
+            
+            [contenteditable=true]:empty:before{
+                content: attr(placeholder);
+                color: #a6a6a9;
+            }
+            
+            /* #是用 id 选择器，设置 id 为 content 的元素的样式*/
+            #content
+            {
+                padding: 10px 0;
+                font-family:Helvetica;
+                -webkit-tap-highlight-color: rgba(0,0,0,0);
+                min-height:100px;
+            }
+            
+                </style>
+    </head>
+    
+    <body>
+    
+        <div id="content" contenteditable="true" onmouseup="saveSelection();" onkeyup="saveSelection();" onfocus="restoreSelection();" placeholder="轻触屏幕开始编辑正文" ></div>
+        
+        <script>
+            var savedRange, isInFocus;
+            /* 获取可编辑的内容框 */
+            var editableContent = document.getElementById("content");
+            
+        
+        function triggerFocus()
+        {
+            editableContent.focus();
+        }
+        
+        //保存选定区域：selection 是选中区对象election 对象的典型用途是作为用户的输入，以便识别正在对文档的哪一部分正在处理，或者作为某一操作的结果输出给用户
+        function saveSelection()
+        
+        {
+            /**
+             1. W3C：用户选择区域是Selection对象;  IE：用户选择区域是TextRange对象,如果浏览器不支持getRangeAt()方法，比如Safari1.3，我们需要先创建一个新的Range对象，而它必须包含用户当前选中的区域。
+             2. 通过 selection 对象的 getRangeAt 方法来获取 selection 对象的某个 range 对象，getRangeAt 的参数
+                1. 0：用户没有按下鼠标的时候
+                2. 1：当用户按下鼠标的时候
+                3. 选中多个代表选中区域的数量
+                4. 用户取消区域选择，属性值为1，代表页面山存在一个空的 range 对象
+             3. range对象的创建:range 对象可以对选中的文字进行添加对象，变粗等网页的富文本编辑
+                1. ie
+                2. w3c的 range：可以由selection 对象创建也可以由document来创建
+                    1. selection：是已经选好的 range 对象，通过 selection.getRangeAt（0）来得到从 selection 0开始的 range 对象
+                    2. Document 创建：确定range 来自哪个元素 selection
+             */
+            
+            if(window.getSelection)
+            {
+                savedRange = window.getSelection().getRangeAt(0);
+            }
+            else if(document.selection)
+            {
+                savedRange = document.selection.createRange();//从选中区创建一个文本区域对象，根据当前文字选择返回 TextRange对象
+            }
+        }
+        
+        //载入选中区
+        function restoreSelection()
+        {
+            isInFocus = true;
+            /**
+             1. foucus():当元素获得焦点时候，发生 focus 事件
+             */
+            editableContent.focus();
+            if (savedRange != null) {
+                /**
+                 1. 返回一个 Selection 对象，便是用户选择的文本范围或者光标的当前位置
+                 */
+                if (window.getSelection)
+                {
+                    /** selection 对象属性
+                     0. Selection对象表示用户选择的文本范围或插入符号的当前位置。它代表页面中的文本选区，可能横跨多个元素。文本选区由用户拖拽鼠标经过文字而产生。要获取用于检查或修改的Selection对象，请调用 window.getSelection()。
+                     1. anchorOffset:起点偏移量的数字。返回值从零开始计数，如果选区从锚节点（Selection.anchorNode）的第一个字符开始，返回值为0。
+                     2. focusOffset:返回选区终点（鼠标松开瞬间所记录的那个点）在焦点（Selection.focusNode）中的偏移量。返回值从零开始计数，如果选区（Selection）在焦点（Selection.focusNode）的第一个字符前结束，返回值为0
+                     3.
+                     */
+                    var s = window.getSelection();
+                    /**
+                     1.rangeCount返回选区域
+                     */
+                    if (s.rangeCount > 0)
+                    /**removeAllRanges
+                     1. 从当前 selection 对象中移除所有的range 对象
+                     2. 取消所有的 选择只留下 anchorNode 和 focusNode属性并会把其设置为 null
+                     3.anchorNode：返回选区开始位置所属的节点
+                     4.focusNode： 返回所选内容的结束位置部分所属的节点
+                     */
+                    s.removeAllRanges();
+                    //一个区域（Range）对象将被增加到选区（Selection）当中
+                    s.addRange(savedRange);
+                }
+                else if (document.createRange)
+                {
+                    window.getSelection().addRange(savedRange);
+                }
+                else if (document.selection)
+                {
+                    savedRange.select();
+                }
+            }
+        }
+        
+        /*js 方法设计，插入图片 */
+        function insertImage(imageName, imagePath)
+        {
+            restoreSelection();
+            var imageElement = document.createElement('img');
+            var breakElement = document.createElement('div');
+            imageElement.setAttribute('src', imagePath);
+            imageElement.setAttribute('id', imageName);
+            breakElement.innerHTML = "<br>";
+            editableContent.appendChild(imageElement);
+            editableContent.appendChild(breakElement);
+        }
+        
+        
+        function updateImageURL(imageName, imageURL)
+        {
+            var selectedElement = document.getElementById(imageName);
+            selectedElement.setAttribute('src', imageURL);
+        }
+        
+        
+        //获取 html 代码
+        function placeHTMLToEditor(html)
+        {
+            /*可编辑文本框的内容*/
+            editableContent.innerHTML = html;
+        }
+        
+            </script>
+    </body>
+</html>

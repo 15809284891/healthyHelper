@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  healthyHelper
+//
+//  Created by snow on 2018/1/9.
+//  Copyright © 2018年 snow. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define MAS_SHORTHAND//只要添加了这个宏，就不用带mas了,必须定义在#import "Masonry.h"之前
+#define MAS_SHORTHAND_GLOBALS//添加了该宏，就可以用equlto了，会自动包装
+#define mainColor [UIColor colorWithRed:214/255.0 green:33/255.0 blue:25/255.0 alpha:1.0]
+#define bacColor [UIColor colorWithRed:229.0/255.0 green:230/255.0 blue:230/255.0 alpha:1.0]
+#define weekColor [UIColor colorWithRed:243.0/255.0 green:248/255.0 blue:248/255.0 alpha:1.0]
+#define paneW   ([[UIScreen mainScreen]bounds].size.width-20)/7
+#define paneH  ([[UIScreen mainScreen]bounds].size.height-64-20-44)/12
+#define screenW [[UIScreen mainScreen]bounds].size.width
+#define screenH [[UIScreen mainScreen]bounds].size.height
+#define courseCellH 60
+#define lineH 1
+#define courseDis 5
+#define healthyHeaderCellH 45
+#define healthyCellH 60
+#import "NSString+DateToWeek.h"
+#import "ZXPUnicode.h"//将输出太的 unicode 转为中文
+#import <MJExtension/MJExtension.h>
+#import "PlistTool.h"
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <pop/POP.h>
+#import "LXPLaceHolder.h"
+#import "HorizontalButton.h"
+#endif /* PrefixHeader_pch */
