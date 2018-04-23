@@ -22,8 +22,9 @@
 -(NSMutableArray *)noteArr{
     if (!_noteArr) {
         _noteArr = [NSMutableArray array];
-        [_noteArr addObject:@"笔记1"];
-        [_noteArr addObject:@"笔记2"];
+        [_noteArr addObject:@"工作"];
+        [_noteArr addObject:@"学习"];
+        [_noteArr addObject:@"生活"];
     }
     return _noteArr;
 }

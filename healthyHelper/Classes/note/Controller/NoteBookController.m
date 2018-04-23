@@ -23,8 +23,8 @@
 -(NSMutableArray *)noteBookArr{
     if (!_noteBookArr) {
         _noteBookArr = [NSMutableArray array];
-        [_noteBookArr addObject:@"笔记本1"];
-        [_noteBookArr addObject:@"笔记本2"];
+        [_noteBookArr addObject:@"我的"];
+        [_noteBookArr addObject:@"其它"];
     }
     return _noteBookArr;
 }

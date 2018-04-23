@@ -87,4 +87,22 @@
         self.timeBlk(_timeDic);
     }
 }
+
+//重写方法
+- (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UIView *)view{
+    UILabel* pickerLabel = (UILabel*)view;
+    if (!pickerLabel){
+        pickerLabel = [[UILabel alloc] init];
+        // Setup label properties - frame, font, colors etc
+        //adjustsFontSizeToFitWidth property to YES
+        pickerLabel.adjustsFontSizeToFitWidth = YES;
+        [pickerLabel setTextAlignment:NSTextAlignmentLeft];
+        [pickerLabel setBackgroundColor:[UIColor clearColor]];
+        [pickerLabel setFont:[UIFont boldSystemFontOfSize:18]];
+    }
+    // Fill the label text here
+    pickerLabel.text=[self pickerView:pickerView titleForRow:row forComponent:component];
+    return pickerLabel;
+}
+
 @end

@@ -38,14 +38,41 @@
 		E9ADB12D1FF5D23B00C3970A /* LXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ADB12C1FF5D23B00C3970A /* LXTabBarController.m */; };
 		E9ADB1381FF5D2DC00C3970A /* ScheduleController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ADB1371FF5D2DC00C3970A /* ScheduleController.m */; };
 		E9ADB13B1FF5D2ED00C3970A /* NoteController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ADB13A1FF5D2ED00C3970A /* NoteController.m */; };
-		E9ADB13E1FF5D30000C3970A /* HealthyController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ADB13D1FF5D30000C3970A /* HealthyController.m */; };
 		E9ADB1441FF5D9E600C3970A /* PersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ADB1431FF5D9E600C3970A /* PersonController.m */; };
-		E9ADB1481FF5DFAE00C3970A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9ADB1471FF5DFAE00C3970A /* Assets.xcassets */; };
 		E9ADB14F200053DA00C3970A /* NoteBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ADB14E200053DA00C3970A /* NoteBookController.m */; };
 		E9ADB15220005E0500C3970A /* weekDay.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9ADB15120005E0500C3970A /* weekDay.plist */; };
 		E9ADB15520005F3000C3970A /* NoteBook.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ADB15420005F3000C3970A /* NoteBook.m */; };
 		E9ADB15820005FA800C3970A /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ADB15720005FA800C3970A /* Note.m */; };
 		E9ADB15E200334B700C3970A /* WeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ADB15D200334B700C3970A /* WeekView.m */; };
+		E9D0AF6A2084C776002ED976 /* MBProgressHUD+MyHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0AF692084C776002ED976 /* MBProgressHUD+MyHUD.m */; };
+		E9D0AF702084C81F002ED976 /* LXPlaceholderTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0AF6D2084C81E002ED976 /* LXPlaceholderTextField.m */; };
+		E9D0AF712084C81F002ED976 /* LXHTTPHelperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0AF6E2084C81E002ED976 /* LXHTTPHelperClass.m */; };
+		E9D0AF732084C96B002ED976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D0AF722084C96B002ED976 /* Assets.xcassets */; };
+		E9D0AF772084CB77002ED976 /* XMGLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0AF742084CB77002ED976 /* XMGLoginRegisterViewController.m */; };
+		E9D0AF782084CB77002ED976 /* XMGLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9D0AF762084CB77002ED976 /* XMGLoginRegisterViewController.xib */; };
+		E9D0AF7B2084CF2B002ED976 /* XMGTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0AF792084CF2A002ED976 /* XMGTextField.m */; };
+		E9D0AF7E2084D836002ED976 /* FoodData.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0AF7D2084D836002ED976 /* FoodData.m */; };
+		E9D0AF822084E8A5002ED976 /* foodData.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9D0AF812084E8A5002ED976 /* foodData.plist */; };
+		E9D0AF852084EAE6002ED976 /* SearchFoodController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0AF842084EAE6002ED976 /* SearchFoodController.m */; };
+		E9D0AF882084ED8C002ED976 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0AF872084ED8C002ED976 /* Food.m */; };
+		E9D0AF8A2084EF03002ED976 /* food.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9D0AF892084EF03002ED976 /* food.plist */; };
+		E9D0AF8D2084F48E002ED976 /* FoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0AF8C2084F48E002ED976 /* FoodCell.m */; };
+		E9D0AF902084FED8002ED976 /* FoodDataCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0AF8F2084FED8002ED976 /* FoodDataCell.m */; };
+		E9D0AF9620850BB9002ED976 /* HKPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0AF9420850BB8002ED976 /* HKPieChartView.m */; };
+		E9D0AF9820850CFA002ED976 /* HealthyController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0AF9720850CFA002ED976 /* HealthyController.m */; };
+		E9D0AFA120859DC2002ED976 /* PersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0AFA020859DC2002ED976 /* PersonView.m */; };
+		E9D0AFA520859F97002ED976 /* personModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0AFA320859F97002ED976 /* personModel.m */; };
+		E9D0AFAE2085A037002ED976 /* NSString+DateToWeek.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0AFA82085A036002ED976 /* NSString+DateToWeek.m */; };
+		E9D0AFAF2085A037002ED976 /* NSString+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0AFAA2085A037002ED976 /* NSString+URL.m */; };
+		E9D0AFB02085A037002ED976 /* UIButton+FillButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0AFAB2085A037002ED976 /* UIButton+FillButton.m */; };
+		E9D0AFB12085A037002ED976 /* NSString+LXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0AFAC2085A037002ED976 /* NSString+LXExtension.m */; };
+		E9D0AFB32085A15B002ED976 /* person.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9D0AFB22085A15B002ED976 /* person.plist */; };
+		E9D0AFB92085A6CF002ED976 /* FoodDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0AFB82085A6CF002ED976 /* FoodDetailView.m */; };
+		E9D0AFE72085C7F9002ED976 /* TXHRulerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0AFE32085C7F9002ED976 /* TXHRulerScrollView.m */; };
+		E9D0AFE82085C7F9002ED976 /* TXHRrettyRuler.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0AFE42085C7F9002ED976 /* TXHRrettyRuler.m */; };
+		E9D0AFEB2085D31E002ED976 /* LXRulerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0AFEA2085D31E002ED976 /* LXRulerControl.m */; };
+		E9D259C02085ECDF00D233DD /* ShowAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D259BF2085ECDF00D233DD /* ShowAnimationView.m */; };
+		E9D259C220860A1200D233DD /* noteBook.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9D259C120860A1200D233DD /* noteBook.plist */; };
 		E9D6DA57204428AE007627ED /* HorizontalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D6DA56204428AE007627ED /* HorizontalButton.m */; };
 		E9D6DA5A20442DB2007627ED /* WeekSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D6DA5920442DB2007627ED /* WeekSelector.m */; };
 		E9D6DA5D204548B2007627ED /* UIButton+FillButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D6DA5C204548B2007627ED /* UIButton+FillButton.m */; };
@@ -132,10 +159,8 @@
 		E9ADB1391FF5D2ED00C3970A /* NoteController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteController.h; sourceTree = "<group>"; };
 		E9ADB13A1FF5D2ED00C3970A /* NoteController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteController.m; sourceTree = "<group>"; };
 		E9ADB13C1FF5D30000C3970A /* HealthyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HealthyController.h; sourceTree = "<group>"; };
-		E9ADB13D1FF5D30000C3970A /* HealthyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HealthyController.m; sourceTree = "<group>"; };
 		E9ADB1421FF5D9E600C3970A /* PersonController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonController.h; sourceTree = "<group>"; };
 		E9ADB1431FF5D9E600C3970A /* PersonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonController.m; sourceTree = "<group>"; };
-		E9ADB1471FF5DFAE00C3970A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9ADB14D200053DA00C3970A /* NoteBookController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteBookController.h; sourceTree = "<group>"; };
 		E9ADB14E200053DA00C3970A /* NoteBookController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteBookController.m; sourceTree = "<group>"; };
 		E9ADB15120005E0500C3970A /* weekDay.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = weekDay.plist; sourceTree = "<group>"; };
@@ -145,6 +170,57 @@
 		E9ADB15720005FA800C3970A /* Note.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
 		E9ADB15C200334B700C3970A /* WeekView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeekView.h; sourceTree = "<group>"; };
 		E9ADB15D200334B700C3970A /* WeekView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeekView.m; sourceTree = "<group>"; };
+		E9D0AF682084C776002ED976 /* MBProgressHUD+MyHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MyHUD.h"; sourceTree = "<group>"; };
+		E9D0AF692084C776002ED976 /* MBProgressHUD+MyHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MyHUD.m"; sourceTree = "<group>"; };
+		E9D0AF6C2084C81E002ED976 /* LXPlaceholderTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXPlaceholderTextField.h; sourceTree = "<group>"; };
+		E9D0AF6D2084C81E002ED976 /* LXPlaceholderTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXPlaceholderTextField.m; sourceTree = "<group>"; };
+		E9D0AF6E2084C81E002ED976 /* LXHTTPHelperClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHTTPHelperClass.m; sourceTree = "<group>"; };
+		E9D0AF6F2084C81F002ED976 /* LXHTTPHelperClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHTTPHelperClass.h; sourceTree = "<group>"; };
+		E9D0AF722084C96B002ED976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9D0AF742084CB77002ED976 /* XMGLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGLoginRegisterViewController.m; sourceTree = "<group>"; };
+		E9D0AF752084CB77002ED976 /* XMGLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGLoginRegisterViewController.h; sourceTree = "<group>"; };
+		E9D0AF762084CB77002ED976 /* XMGLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		E9D0AF792084CF2A002ED976 /* XMGTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTextField.m; sourceTree = "<group>"; };
+		E9D0AF7A2084CF2A002ED976 /* XMGTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTextField.h; sourceTree = "<group>"; };
+		E9D0AF7C2084D836002ED976 /* FoodData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodData.h; sourceTree = "<group>"; };
+		E9D0AF7D2084D836002ED976 /* FoodData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodData.m; sourceTree = "<group>"; };
+		E9D0AF812084E8A5002ED976 /* foodData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = foodData.plist; sourceTree = "<group>"; };
+		E9D0AF832084EAE6002ED976 /* SearchFoodController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchFoodController.h; sourceTree = "<group>"; };
+		E9D0AF842084EAE6002ED976 /* SearchFoodController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchFoodController.m; sourceTree = "<group>"; };
+		E9D0AF862084ED8C002ED976 /* Food.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		E9D0AF872084ED8C002ED976 /* Food.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		E9D0AF892084EF03002ED976 /* food.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = food.plist; sourceTree = "<group>"; };
+		E9D0AF8B2084F48E002ED976 /* FoodCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodCell.h; sourceTree = "<group>"; };
+		E9D0AF8C2084F48E002ED976 /* FoodCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodCell.m; sourceTree = "<group>"; };
+		E9D0AF8E2084FED8002ED976 /* FoodDataCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodDataCell.h; sourceTree = "<group>"; };
+		E9D0AF8F2084FED8002ED976 /* FoodDataCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodDataCell.m; sourceTree = "<group>"; };
+		E9D0AF9420850BB8002ED976 /* HKPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKPieChartView.m; sourceTree = "<group>"; };
+		E9D0AF9520850BB8002ED976 /* HKPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKPieChartView.h; sourceTree = "<group>"; };
+		E9D0AF9720850CFA002ED976 /* HealthyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthyController.m; sourceTree = "<group>"; };
+		E9D0AF9F20859DC2002ED976 /* PersonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonView.h; sourceTree = "<group>"; };
+		E9D0AFA020859DC2002ED976 /* PersonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonView.m; sourceTree = "<group>"; };
+		E9D0AFA320859F97002ED976 /* personModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = personModel.m; sourceTree = "<group>"; };
+		E9D0AFA420859F97002ED976 /* personModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = personModel.h; sourceTree = "<group>"; };
+		E9D0AFA62085A036002ED976 /* NSString+LXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+LXExtension.h"; path = "healthyHelper/Category/NSString+LXExtension.h"; sourceTree = SOURCE_ROOT; };
+		E9D0AFA72085A036002ED976 /* NSString+URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+URL.h"; path = "healthyHelper/Category/NSString+URL.h"; sourceTree = SOURCE_ROOT; };
+		E9D0AFA82085A036002ED976 /* NSString+DateToWeek.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+DateToWeek.m"; path = "healthyHelper/Category/NSString+DateToWeek.m"; sourceTree = SOURCE_ROOT; };
+		E9D0AFA92085A037002ED976 /* NSString+DateToWeek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+DateToWeek.h"; path = "healthyHelper/Category/NSString+DateToWeek.h"; sourceTree = SOURCE_ROOT; };
+		E9D0AFAA2085A037002ED976 /* NSString+URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+URL.m"; path = "healthyHelper/Category/NSString+URL.m"; sourceTree = SOURCE_ROOT; };
+		E9D0AFAB2085A037002ED976 /* UIButton+FillButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+FillButton.m"; path = "healthyHelper/Category/UIButton+FillButton.m"; sourceTree = SOURCE_ROOT; };
+		E9D0AFAC2085A037002ED976 /* NSString+LXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+LXExtension.m"; path = "healthyHelper/Category/NSString+LXExtension.m"; sourceTree = SOURCE_ROOT; };
+		E9D0AFAD2085A037002ED976 /* UIButton+FillButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+FillButton.h"; path = "healthyHelper/Category/UIButton+FillButton.h"; sourceTree = SOURCE_ROOT; };
+		E9D0AFB22085A15B002ED976 /* person.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = person.plist; sourceTree = "<group>"; };
+		E9D0AFB72085A6CF002ED976 /* FoodDetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodDetailView.h; sourceTree = "<group>"; };
+		E9D0AFB82085A6CF002ED976 /* FoodDetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodDetailView.m; sourceTree = "<group>"; };
+		E9D0AFE32085C7F9002ED976 /* TXHRulerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXHRulerScrollView.m; sourceTree = "<group>"; };
+		E9D0AFE42085C7F9002ED976 /* TXHRrettyRuler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXHRrettyRuler.m; sourceTree = "<group>"; };
+		E9D0AFE52085C7F9002ED976 /* TXHRulerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXHRulerScrollView.h; sourceTree = "<group>"; };
+		E9D0AFE62085C7F9002ED976 /* TXHRrettyRuler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXHRrettyRuler.h; sourceTree = "<group>"; };
+		E9D0AFE92085D31E002ED976 /* LXRulerControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXRulerControl.h; sourceTree = "<group>"; };
+		E9D0AFEA2085D31E002ED976 /* LXRulerControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXRulerControl.m; sourceTree = "<group>"; };
+		E9D259BE2085ECDF00D233DD /* ShowAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowAnimationView.h; sourceTree = "<group>"; };
+		E9D259BF2085ECDF00D233DD /* ShowAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowAnimationView.m; sourceTree = "<group>"; };
+		E9D259C120860A1200D233DD /* noteBook.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = noteBook.plist; sourceTree = "<group>"; };
 		E9D6DA55204428AE007627ED /* HorizontalButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalButton.h; sourceTree = "<group>"; };
 		E9D6DA56204428AE007627ED /* HorizontalButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalButton.m; sourceTree = "<group>"; };
 		E9D6DA5820442DB2007627ED /* WeekSelector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeekSelector.h; sourceTree = "<group>"; };
@@ -216,6 +292,7 @@
 		E910F1CC1FDF6C9800EED8F6 /* healthyHelper */ = {
 			isa = PBXGroup;
 			children = (
+				E9D0AF6B2084C811002ED976 /* Tool */,
 				E925C94520097CFB00609889 /* PlistTool */,
 				E925C92C200755A700609889 /* Category */,
 				E9ADB15020005DE200C3970A /* testPlist */,
@@ -250,6 +327,8 @@
 		E925C92C200755A700609889 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				E9D0AF682084C776002ED976 /* MBProgressHUD+MyHUD.h */,
+				E9D0AF692084C776002ED976 /* MBProgressHUD+MyHUD.m */,
 				E925C93D20084FAF00609889 /* ZXPUnicode.h */,
 				E925C93E20084FB000609889 /* ZXPUnicode.m */,
 				E925C92D200755E000609889 /* NSString+DateToWeek.h */,
@@ -305,7 +384,9 @@
 			isa = PBXGroup;
 			children = (
 				E9ADB13C1FF5D30000C3970A /* HealthyController.h */,
-				E9ADB13D1FF5D30000C3970A /* HealthyController.m */,
+				E9D0AF9720850CFA002ED976 /* HealthyController.m */,
+				E9D0AF832084EAE6002ED976 /* SearchFoodController.h */,
+				E9D0AF842084EAE6002ED976 /* SearchFoodController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -313,6 +394,10 @@
 		E9ADB1281FF5D19500C3970A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E9D0AF7C2084D836002ED976 /* FoodData.h */,
+				E9D0AF7D2084D836002ED976 /* FoodData.m */,
+				E9D0AF862084ED8C002ED976 /* Food.h */,
+				E9D0AF872084ED8C002ED976 /* Food.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -320,6 +405,14 @@
 		E9ADB1291FF5D19500C3970A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E9D0AF8B2084F48E002ED976 /* FoodCell.h */,
+				E9D0AF8C2084F48E002ED976 /* FoodCell.m */,
+				E9D0AF8E2084FED8002ED976 /* FoodDataCell.h */,
+				E9D0AF8F2084FED8002ED976 /* FoodDataCell.m */,
+				E9D0AFB72085A6CF002ED976 /* FoodDetailView.h */,
+				E9D0AFB82085A6CF002ED976 /* FoodDetailView.m */,
+				E9D259BE2085ECDF00D233DD /* ShowAnimationView.h */,
+				E9D259BF2085ECDF00D233DD /* ShowAnimationView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -446,6 +539,8 @@
 		E9ADB1401FF5D9BE00C3970A /* Person */ = {
 			isa = PBXGroup;
 			children = (
+				E9D0AFA220859F97002ED976 /* Model */,
+				E9D0AF9E20859DC2002ED976 /* View */,
 				E9ADB1411FF5D9D100C3970A /* Controller */,
 			);
 			path = Person;
@@ -454,6 +549,9 @@
 		E9ADB1411FF5D9D100C3970A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E9D0AF752084CB77002ED976 /* XMGLoginRegisterViewController.h */,
+				E9D0AF742084CB77002ED976 /* XMGLoginRegisterViewController.m */,
+				E9D0AF762084CB77002ED976 /* XMGLoginRegisterViewController.xib */,
 				E9ADB1421FF5D9E600C3970A /* PersonController.h */,
 				E9ADB1431FF5D9E600C3970A /* PersonController.m */,
 			);
@@ -464,8 +562,67 @@
 			isa = PBXGroup;
 			children = (
 				E9ADB15120005E0500C3970A /* weekDay.plist */,
+				E9D0AF812084E8A5002ED976 /* foodData.plist */,
+				E9D0AF892084EF03002ED976 /* food.plist */,
+				E9D0AFB22085A15B002ED976 /* person.plist */,
+				E9D259C120860A1200D233DD /* noteBook.plist */,
 			);
 			path = testPlist;
+			sourceTree = "<group>";
+		};
+		E9D0AF6B2084C811002ED976 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E9D0AFE22085C7F9002ED976 /* PrettyRulerClass */,
+				E9D0AF7A2084CF2A002ED976 /* XMGTextField.h */,
+				E9D0AF792084CF2A002ED976 /* XMGTextField.m */,
+				E9D0AF9520850BB8002ED976 /* HKPieChartView.h */,
+				E9D0AF9420850BB8002ED976 /* HKPieChartView.m */,
+				E9D0AFA92085A037002ED976 /* NSString+DateToWeek.h */,
+				E9D0AFA82085A036002ED976 /* NSString+DateToWeek.m */,
+				E9D0AFA62085A036002ED976 /* NSString+LXExtension.h */,
+				E9D0AFAC2085A037002ED976 /* NSString+LXExtension.m */,
+				E9D0AFA72085A036002ED976 /* NSString+URL.h */,
+				E9D0AFAA2085A037002ED976 /* NSString+URL.m */,
+				E9D0AFAD2085A037002ED976 /* UIButton+FillButton.h */,
+				E9D0AFAB2085A037002ED976 /* UIButton+FillButton.m */,
+				E9D0AF6F2084C81F002ED976 /* LXHTTPHelperClass.h */,
+				E9D0AF6E2084C81E002ED976 /* LXHTTPHelperClass.m */,
+				E9D0AF6C2084C81E002ED976 /* LXPlaceholderTextField.h */,
+				E9D0AF6D2084C81E002ED976 /* LXPlaceholderTextField.m */,
+				E9D0AFE92085D31E002ED976 /* LXRulerControl.h */,
+				E9D0AFEA2085D31E002ED976 /* LXRulerControl.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		E9D0AF9E20859DC2002ED976 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9D0AF9F20859DC2002ED976 /* PersonView.h */,
+				E9D0AFA020859DC2002ED976 /* PersonView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9D0AFA220859F97002ED976 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E9D0AFA320859F97002ED976 /* personModel.m */,
+				E9D0AFA420859F97002ED976 /* personModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E9D0AFE22085C7F9002ED976 /* PrettyRulerClass */ = {
+			isa = PBXGroup;
+			children = (
+				E9D0AFE62085C7F9002ED976 /* TXHRrettyRuler.h */,
+				E9D0AFE42085C7F9002ED976 /* TXHRrettyRuler.m */,
+				E9D0AFE52085C7F9002ED976 /* TXHRulerScrollView.h */,
+				E9D0AFE32085C7F9002ED976 /* TXHRulerScrollView.m */,
+			);
+			path = PrettyRulerClass;
 			sourceTree = "<group>";
 		};
 		E9D6DA5420442888007627ED /* MyButton */ = {
@@ -482,7 +639,7 @@
 		F593BF7ABB6812D8E66F68B6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E9ADB1471FF5DFAE00C3970A /* Assets.xcassets */,
+				E9D0AF722084C96B002ED976 /* Assets.xcassets */,
 				EAEEDF754C9B816244E36703 /* libPods-healthyHelper.a */,
 			);
 			name = Frameworks;
@@ -597,11 +754,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9D0AFB32085A15B002ED976 /* person.plist in Resources */,
+				E9D259C220860A1200D233DD /* noteBook.plist in Resources */,
 				E910F1DA1FDF6C9800EED8F6 /* LaunchScreen.storyboard in Resources */,
-				E9ADB1481FF5DFAE00C3970A /* Assets.xcassets in Resources */,
 				E9ADB15220005E0500C3970A /* weekDay.plist in Resources */,
+				E9D0AF782084CB77002ED976 /* XMGLoginRegisterViewController.xib in Resources */,
 				E910F1D51FDF6C9800EED8F6 /* Main.storyboard in Resources */,
+				E9D0AF8A2084EF03002ED976 /* food.plist in Resources */,
 				E989729A202EEC9500878496 /* richTextEditor.html in Resources */,
+				E9D0AF732084C96B002ED976 /* Assets.xcassets in Resources */,
+				E9D0AF822084E8A5002ED976 /* foodData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -699,22 +861,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				E93A93F92006E24300166178 /* AddCourseItemView.h in Sources */,
+				E9D0AF6A2084C776002ED976 /* MBProgressHUD+MyHUD.m in Sources */,
 				E9ADB1441FF5D9E600C3970A /* PersonController.m in Sources */,
+				E9D0AF852084EAE6002ED976 /* SearchFoodController.m in Sources */,
 				E910F1D21FDF6C9800EED8F6 /* ViewController.m in Sources */,
+				E9D0AF7E2084D836002ED976 /* FoodData.m in Sources */,
 				E9ADB1381FF5D2DC00C3970A /* ScheduleController.m in Sources */,
+				E9D0AF9820850CFA002ED976 /* HealthyController.m in Sources */,
+				E9D0AFAE2085A037002ED976 /* NSString+DateToWeek.m in Sources */,
 				E925C92B200739E000609889 /* PaneView.m in Sources */,
 				E9ADB15820005FA800C3970A /* Note.m in Sources */,
+				E9D0AF712084C81F002ED976 /* LXHTTPHelperClass.m in Sources */,
 				E925C93F20084FB000609889 /* ZXPUnicode.m in Sources */,
 				E9D6DA57204428AE007627ED /* HorizontalButton.m in Sources */,
+				E9D0AF702084C81F002ED976 /* LXPlaceholderTextField.m in Sources */,
+				E9D0AFE82085C7F9002ED976 /* TXHRrettyRuler.m in Sources */,
 				E93A93F52005A93900166178 /* AddCourseItemView.m in Sources */,
 				E9D6DA632046C463007627ED /* CollectionViewCell.m in Sources */,
+				E9D259C02085ECDF00D233DD /* ShowAnimationView.m in Sources */,
+				E9D0AFA520859F97002ED976 /* personModel.m in Sources */,
 				E93A93F82006DEDC00166178 /* AddCourseView.m in Sources */,
 				E93A93F22004B6A500166178 /* AddCourseController.m in Sources */,
 				E925C94220087CE600609889 /* CourseModel.m in Sources */,
 				E943A83C2021CBFF00100869 /* VerticalButton.m in Sources */,
+				E9D0AFA120859DC2002ED976 /* PersonView.m in Sources */,
 				E9897298202EEB3300878496 /* LXPLaceHolder.m in Sources */,
+				E9D0AF772084CB77002ED976 /* XMGLoginRegisterViewController.m in Sources */,
+				E9D0AFEB2085D31E002ED976 /* LXRulerControl.m in Sources */,
+				E9D0AF8D2084F48E002ED976 /* FoodCell.m in Sources */,
 				E910F1DD1FDF6C9800EED8F6 /* main.m in Sources */,
 				E9D6DA5A20442DB2007627ED /* WeekSelector.m in Sources */,
+				E9D0AF9620850BB9002ED976 /* HKPieChartView.m in Sources */,
+				E9D0AFE72085C7F9002ED976 /* TXHRulerScrollView.m in Sources */,
+				E9D0AFB12085A037002ED976 /* NSString+LXExtension.m in Sources */,
+				E9D0AF882084ED8C002ED976 /* Food.m in Sources */,
 				E93A93FC2006E5B300166178 /* TimeSelecterTool.m in Sources */,
 				E9ADB13B1FF5D2ED00C3970A /* NoteController.m in Sources */,
 				E943A8482025872300100869 /* NoteCell.m in Sources */,
@@ -722,17 +902,21 @@
 				E943A8452023488200100869 /* NoteBookCell.m in Sources */,
 				E9ADB14F200053DA00C3970A /* NoteBookController.m in Sources */,
 				E925C92F200755E000609889 /* NSString+DateToWeek.m in Sources */,
+				E9D0AFB02085A037002ED976 /* UIButton+FillButton.m in Sources */,
 				E92D6D95204BFEBA00591D02 /* NSDate+TwoDateWeeks.m in Sources */,
 				E92D6D8F204BE81B00591D02 /* GetOneDay.m in Sources */,
 				E925C94820097D9300609889 /* PlistTool.m in Sources */,
 				E9D6DA5D204548B2007627ED /* UIButton+FillButton.m in Sources */,
 				E9ADB15E200334B700C3970A /* WeekView.m in Sources */,
+				E9D0AF902084FED8002ED976 /* FoodDataCell.m in Sources */,
 				E943A83F2021D1F400100869 /* NoteDetailController.m in Sources */,
-				E9ADB13E1FF5D30000C3970A /* HealthyController.m in Sources */,
 				E925C9CA2014432200609889 /* EditCourseController.m in Sources */,
 				E9ADB12D1FF5D23B00C3970A /* LXTabBarController.m in Sources */,
 				E9ADB15520005F3000C3970A /* NoteBook.m in Sources */,
+				E9D0AFAF2085A037002ED976 /* NSString+URL.m in Sources */,
+				E9D0AF7B2084CF2B002ED976 /* XMGTextField.m in Sources */,
 				E943A8422022BDCB00100869 /* AddNoteView.m in Sources */,
+				E9D0AFB92085A6CF002ED976 /* FoodDetailView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

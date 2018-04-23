@@ -7,4 +7,6 @@ pod 'MJExtension', '~> 3.0.13'
 pod 'Masonry', '~> 1.1.0'
 pod 'SVProgressHUD', '~> 2.2.2'
 pod 'pop', '~> 1.0.10'
+
+pod 'MBProgressHUD'
 end

@@ -33,10 +33,11 @@
      */
     LXPLaceHolder *titleTf = [[LXPLaceHolder  alloc]initWithFrame:CGRectMake(0, 64, screenW, 50)];
     titleTf.placeholder = @"请输入标题";
-    titleTf.keyboardType = UIKeyboardTypeTwitter;
+//    titleTf.keyboardType = UIKeyboardTypeTwitter;
     titleTf.font = [UIFont systemFontOfSize:20.0];
     [self.view addSubview:titleTf];
     _titleTf = titleTf;
+//    [self setTextFieldInputAccessoryView];
     
     /**
      内容框
@@ -50,38 +51,59 @@
     NSURL *indexFileURL = [bundle URLForResource:@"richTextEditor" withExtension:@"html"];
     /* 一个 Bool 值表示 web 内容是否能够以编程方式显示键盘 */
     [self.contentWebView setKeyboardDisplayRequiresUserAction:YES];
+//    self.contentWebView.
     [self.contentWebView loadRequest:[NSURLRequest requestWithURL:indexFileURL]];
     
     
     UIButton *addImgBt = [UIButton buttonWithType:UIButtonTypeCustom];
-    addImgBt.frame = CGRectMake(screenW-100, screenH-60, 80, 40);
-    addImgBt.backgroundColor = [UIColor redColor];
+    addImgBt.frame = CGRectMake(screenW-60, screenH-60, 40, 40);
     [addImgBt addTarget:self action:@selector(addImage) forControlEvents:UIControlEventTouchUpInside];
-    [addImgBt setTitle:@"添加图片" forState: UIControlStateNormal];
+    [addImgBt setImage:[UIImage imageNamed:@"相机"] forState:UIControlStateNormal];
     [self.view addSubview:addImgBt];
     
     
 }
+
+- (void)setTextFieldInputAccessoryView{
+    UIToolbar * topView = [[UIToolbar alloc]initWithFrame:CGRectMake(0, 0, screenW, 30)];
+    [topView setBarStyle:UIBarStyleDefault];
+    UIBarButtonItem * spaceBtn = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:self action:nil];
+    UIButton *doneBtn = [UIButton buttonWithType:UIButtonTypeSystem];
+    [doneBtn setTitle:@"完成" forState:UIControlStateNormal];
+    doneBtn.frame = CGRectMake(2, 5, 40, 25);
+    [doneBtn addTarget:self action:@selector(dealKeyboardHide) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *doneBtnItem = [[UIBarButtonItem alloc]initWithCustomView:doneBtn];
+    NSArray * buttonsArray = [NSArray arrayWithObjects:spaceBtn,doneBtnItem,nil];
+    [topView setItems:buttonsArray];
+    [self.titleTf setInputAccessoryView:topView];
+    [self.titleTf setAutocorrectionType:UITextAutocorrectionTypeNo];
+    [self.titleTf setAutocapitalizationType:UITextAutocapitalizationTypeNone];
+}
+
+- (void)dealKeyboardHide {
+    [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
+}
+
 -(void)addImage{
-    _addView = [[AddNoteView alloc]initWithFrame:CGRectMake(0, screenH, screenW, (screenH)/2.0)];
-    [self.view addSubview:_addView];
-    __weak typeof(self)weakSelf  = self;
-    
-    _addView.blk = ^(UIButton *bt) {
-        __strong typeof(weakSelf)strongSelf = weakSelf;
-        if (bt.tag == 0) {
-            
-            
-        }else if (bt.tag == 1){
-            [strongSelf.addView removeAddView:strongSelf.addView];
-            [strongSelf getImage];
-        }else{
-            
-        }
-    };
-    [UIView animateWithDuration:0.5 animations:^{
-        _addView.frame = CGRectMake(0, (screenH)/2.0, screenW,_addView.frame.size.height );
-    }];
+//    _addView = [[AddNoteView alloc]initWithFrame:CGRectMake(0, screenH, screenW, (screenH)/2.0)];
+//    [self.view addSubview:_addView];
+//    __weak typeof(self)weakSelf  = self;
+//
+//    _addView.blk = ^(UIButton *bt) {
+//        __strong typeof(weakSelf)strongSelf = weakSelf;
+////        if (bt.tag == 0) {
+////
+////
+////        }else if (bt.tag == 1){
+////            [strongSelf.addView removeAddView:strongSelf.addView];
+            [self getImage];
+//        }else{
+//
+//        }
+//    };
+//    [UIView animateWithDuration:0.5 animations:^{
+//        _addView.frame = CGRectMake(0, (screenH)/2.0, screenW,_addView.frame.size.height );
+//    }];
     
 }
 -(void)initRightTabbarItem{

@@ -65,6 +65,7 @@
     return YES;
 }
 -(void)textFieldDidEndEditing:(UITextField *)textField{
+    [textField resignFirstResponder];
     if (self.contentblk) {
         self.contentblk(textField.text);
     }

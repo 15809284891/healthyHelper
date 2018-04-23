@@ -10,4 +10,13 @@
 
 @implementation NoteBook
 
+
+- (id)copyWithZone:(NSZone *)zone
+{
+    NoteBook* newTestObject = [[NoteBook allocWithZone:zone] init];
+    newTestObject.NoteBookName = self.NoteBookName;
+    newTestObject.NoteBookId = self.NoteBookId;
+    newTestObject.NoteCount = self.NoteCount;
+    return newTestObject;
+}
 @end

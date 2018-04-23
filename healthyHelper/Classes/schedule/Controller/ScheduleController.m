@@ -328,7 +328,8 @@
 -(void)initNavTabBarItem{
     
     UIButton * crtBt = [UIButton buttonWithType:UIButtonTypeCustom];
-    [crtBt setTitle:@"第4周-" forState:UIControlStateNormal];
+//    crtBt.titleLabel.font = [UIFont systemFontOfSize:12.0];
+    [crtBt setTitle:@"第4周  " forState:UIControlStateNormal];
     [crtBt setTitle:@"第4周^" forState:UIControlStateSelected];
     crtBt.selected = NO;
     [crtBt setTitleColor:mainColor forState:UIControlStateNormal];

@@ -8,6 +8,28 @@
 
 #import "PlistTool.h"
 @implementation PlistTool
++(NSDictionary *)getPlistDataDicWithName:(NSString *)plistN{
+    NSMutableDictionary *plistDic = [NSMutableDictionary dictionary];
+    //建立文件管理
+    NSFileManager *fm = [NSFileManager defaultManager];
+    //找到Documents 文件所在的路径
+    NSArray *path = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    //取得第一个 Documents 文件夹的路径
+    NSString *filepath = [path objectAtIndex:0];
+    //把要创建的 plist 文件加入
+    NSString *plistPath = [filepath stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.plist",plistN]];
+    NSLog(@"%@",plistPath);
+    if ([fm fileExistsAtPath:plistPath] == NO) {
+        NSLog(@"---------- 不存在");
+        [fm createFileAtPath:plistPath contents:nil attributes:nil];
+    }else{
+        //         一、使用NSMutableArray来接收plist里面的文件，获取里面的数据
+        plistDic = [[NSMutableDictionary alloc] initWithContentsOfFile:plistPath];
+        return plistDic;
+        
+    }
+    return nil;
+}
 +(NSArray *)getPlistDataWithName:(NSString *)plistN{
     NSMutableArray *plistArr = [NSMutableArray array];
     //建立文件管理

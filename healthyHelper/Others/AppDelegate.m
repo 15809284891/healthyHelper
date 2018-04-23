@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "LXTabBarController.h"
+#import "XMGLoginRegisterViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -19,7 +20,7 @@
     // Override point for customization after application launch.
     self.window  = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
     [self.window makeKeyAndVisible];
-    self.window.rootViewController = [[LXTabBarController alloc]init];
+    self.window.rootViewController = [[XMGLoginRegisterViewController alloc]init];
     [[UITabBar appearance] setBarTintColor:[UIColor whiteColor]];
     [UITabBar appearance].translucent = NO;
     return YES;
