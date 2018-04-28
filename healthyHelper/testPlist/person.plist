@@ -2,10 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>personWeight</key>
-	<string>160</string>
-	<key>personH</key>
-	<string>90</string>
+	<key>sex</key>
+	<string>女</string>
+	<key>imageName</key>
+	<string>0</string>
+	<key>weight</key>
+	<integer>160</integer>
+	<key>height</key>
+	<integer>90</integer>
 	<key>userName</key>
 	<string>不会哭的我</string>
 </dict>

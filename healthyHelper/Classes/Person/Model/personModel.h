@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 @interface personModel : NSObject
 @property(nonatomic,strong)NSString *ID;
-@property(nonatomic,strong)NSString *PersonW;
-@property(nonatomic,strong)NSString *personH;
+@property(nonatomic,strong)NSString *imageName;
+@property(nonatomic,strong)NSString *userName;
+@property(nonatomic,strong)NSString *sex;
+@property(nonatomic,assign)CGFloat height;
+@property(nonatomic,assign)CGFloat weight;
 @end

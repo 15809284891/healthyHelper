@@ -47,37 +47,7 @@
 
   }
 -(void)setPerson:(personModel *)person{
-//    NSLog(@"hahahah          person %@",person.Name);
-    _person = person;
-    [self.ImageButton addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
-    if (_person==nil) {
-        NSLog(@"登录");
-        self.nameLb.text = @"登录";
-        self.numLb.text  = nil;
-        self.majorLb.text = nil;
-        self.ImageButton.tag = 0;
-        [self.ImageButton setBackgroundImage:[UIImage imageNamed:@"头像"] forState:UIControlStateNormal];
-
-        return;
-    }
-    else{
-    self.ImageButton.tag =1;
-    /*从沙盒获取头像*/
-    NSString *fullPath = [[NSHomeDirectory() stringByAppendingPathComponent:@"Documents"] stringByAppendingPathComponent:@"currenImage.png"];
-    UIImage *saveImage = [UIImage imageWithContentsOfFile:fullPath];
-    /*如果沙盒没有，设置默认*/
-    if (!saveImage) {
-        [self.ImageButton setBackgroundImage:[UIImage imageNamed:@"头像"] forState:UIControlStateNormal];
-    }
-    /*否则设置沙盒中的*/
-    else{
-        [self.ImageButton setBackgroundImage:saveImage forState:UIControlStateNormal];
-    }
-    
-
-//    self.nameLb.text = _person.Name;
-//    self.numLb.text  = _person.ID;
-//    self.majorLb.text = _person.Department;
+        
     }
 
 }

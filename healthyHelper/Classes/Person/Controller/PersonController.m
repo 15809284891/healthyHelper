@@ -49,7 +49,8 @@
     self.personView.backgroundColor = [UIColor whiteColor];
     self.personView.frame = CGRectMake(0, 0, screenW, 100);
     self.personView.delegate = self;
-//    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(clearInfo) name:@"clearInfo" object:nil];
+     self.personView.person == [personModel mj_objectWithFilename:[NSString stringWithFormat:@"%@",[[NSBundle mainBundle]pathForResource:@"person" ofType:@"plist"]]];
+    
 }
 
 /*初始化tableView*/

@@ -1082,9 +1082,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UHCLK74DHB;
+				DEVELOPMENT_TEAM = RQ4XTMV76Q;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
-				GCC_PREFIX_HEADER = /Users/lx/Desktop/healthyHelper/healthyHelper/Others/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/karisli/Desktop/healthyHelper/healthyHelper/Others/PrefixHeader.pch;
 				INFOPLIST_FILE = healthyHelper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1101,9 +1101,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UHCLK74DHB;
+				DEVELOPMENT_TEAM = RQ4XTMV76Q;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
-				GCC_PREFIX_HEADER = /Users/lx/Desktop/healthyHelper/healthyHelper/Others/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/karisli/Desktop/healthyHelper/healthyHelper/Others/PrefixHeader.pch;
 				INFOPLIST_FILE = healthyHelper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
